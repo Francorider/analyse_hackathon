@@ -60,7 +60,7 @@ def factorial(n):
 
     """
 
-    if n <=1: # if n too low to calculate futher factorials
+    if n == 1: # if n too low to calculate futher factorials
         return n
     else:
         return n * factorial(n-1) # calculate factorial of n recursively

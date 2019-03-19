@@ -108,7 +108,7 @@ def quick_sort(items):
                 high.append(i)
             else:
                 pivot_list.append(i)
-        high = quicksort(high)
-        low = quicksort(low)
+        high = quick_sort(high)
+        low = quick_sort(low)
 
     return low + pivot_list + high
