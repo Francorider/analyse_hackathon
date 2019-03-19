@@ -88,7 +88,7 @@ def quick_sort(items):
         array: array of items sorted in ascending order.
 
     Examples:
-        >> quicksort([3, 5, 2, 6, 4, 7, 4])
+        >> quick_sort([3, 5, 2, 6, 4, 7, 4])
         [2, 3, 4, 4, 5, 6, 7]
 
     """

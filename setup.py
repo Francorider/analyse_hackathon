@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='analyse_hackathon',
-    version='0.2',
-    packages=find_packages(exclude=['tests*']),
+    version='0.3',
+    packages=find_packages(exclude=['']),
     license='MIT',
     description='EDSA Analyse Sprint Hackathon',
     long_description=open('README.md').read(),
